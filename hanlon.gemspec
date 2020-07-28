@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency('facter', '~> 2.4')
   s.add_runtime_dependency('grape', '~> 0.13.0')          # No 1.0 release available (Dec 2015)
   s.add_runtime_dependency('grape-swagger', '~> 0.10.2')  # No 1.0 release available (Dec 2015)
-  s.add_runtime_dependency('json', '~> 1.8')
+  s.add_runtime_dependency('json', '>= 1.8', '< 3.0')
   s.add_runtime_dependency('logger', '~> 1.2')
   s.add_runtime_dependency('mongo', '~> 1.12')            # hanlon hasn't been tested with mongo 2.0
   s.add_runtime_dependency('net-scp', '~> 1.2')
